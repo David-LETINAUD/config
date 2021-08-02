@@ -1,0 +1,24 @@
+[reviewboard]
+	url = https://reviewboard-vbn.alstom.hub/
+[clangFormat]
+	binary = clang-format
+	extension = c, h
+	style = file
+[init]
+	templatedir = /home/dev/ouroboros/tools/git-templates/
+[user]
+	login = e_dletin
+	name = David Letinaud
+	email = david.letinaud-ext@alstomgroup.com
+[push]
+	default = simple
+
+[alias]
+	s = status -uno
+	c = checkout
+	d = diff
+	p = push
+	a = add
+	b = branch
+[core]
+	editor = vim

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Prefs>
+  <pref name="SPARK/user_profile" >Basic</pref>
+  <pref name="General-Charset" >ISO-8859-1</pref>
+  <pref name="Editor/C &amp; C++:Clang/Show diagnostics" >editor and locations</pref>
+  <pref name="Src-Editor-Reference-Style" >DejaVu Sans Mono 11@rgb(0,0,0)@rgb(255,255,255)</pref>
+  <pref name="Debugger-Line-With-Breakpoint" >rgba(0,0,255,0.30196078431399997)</pref>
+  <pref name="Src-Editor-Highlight-Column" > 100</pref>
+  <pref name="Src-Editor-Ephemeral-Simple" >DEFAULT@rgba(0,0,0,0)@rgba(134,134,134,0.35294117647099998)</pref>
+  <pref name="Diff-Side-Default-Color" >rgb(186,189,182)</pref>
+  <pref name="Gtk-Theme-Custom-CSS" >
+@define-color editor_bg_color #ffffff;
+@define-color editor_fg_color #000000;
+@define-color editor_readonly_bg_color #e0e0e0;
+@define-color theme_selected_bg_color #4a90d9;
+@define-color theme_selected_fg_color #000000;
+
+GtkTextView { -GtkWidget-cursor-color: #000000; }
+</pref>
+  <pref name="Src-Editor-Current-Block-Color" >rgb(226,226,226)</pref>
+  <pref name="Diff-Patch-Remove-Variant" >DEFAULT@rgb(120,10,10)@rgba(0,0,0,0)</pref>
+  <pref name="Ada-Align-Decl-On_Colon" >TRUE</pref>
+  <pref name="Diff-Side-Append-Color" >rgb(136,238,170)</pref>
+  <pref name="Ada-Record-Level" > 0</pref>
+  <pref name="Ada-Align-On-Arrows" >TRUE</pref>
+  <pref name="Ada-Align-On-Colons" >TRUE</pref>
+  <pref name="Src-Editor-Numbers-Variant" >DEFAULT@rgb(128,0,212)@rgba(0,0,0,0)</pref>
+  <pref name="/Color-Theme" >Default</pref>
+  <pref name="Search-Incremental" >TRUE</pref>
+  <pref name="Src-Editor-Aspects-Keywords-Variant" >DEFAULT@rgb(0,109,151)@rgba(0,0,0,0)</pref>
+  <pref name="Diff-Side-Remove-Color" >rgb(255,160,160)</pref>
+  <pref name="Src-Editor-Code-Annotations-Variant-18" >DEFAULT@rgba(0,0,0,0)@rgb(224,224,224)</pref>
+  <pref name="Ada-Casing-Policy" >On_The_Fly</pref>
+  <pref name="Auto-Reload-Files" >TRUE</pref>
+  <pref name="GPS6-Gtk-Theme-Name" >Adwaita</pref>
+  <pref name="explorer-show-flat-view" >TRUE</pref>
+  <pref name="Clearcase/Uncheckout behavior" >Keep</pref>
+</Prefs>

@@ -1,0 +1,250 @@
+<?xml version="1.0"?>
+<History>
+  <key type="booleans" name="omni-search-include-all-from-source-dirs" >
+    <value>TRUE</value>
+  </key>
+  <key type="booleans" name="keyshortcuts-filter-negate" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="preferences_editor_searchpreferences_editor_search-case_sensitive" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="preferences_editor_searchpreferences_editor_search-whole_word" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="keyshortcuts-filter-approximate" >
+    <value>FALSE</value>
+  </key>
+  <key type="strings" name="window_x_Search" >
+    <value> 1289</value>
+    <value> 1217</value>
+    <value> 1127</value>
+    <value> 983</value>
+    <value> 1162</value>
+    <value> 943</value>
+    <value> 1236</value>
+    <value> 724</value>
+    <value> 903</value>
+    <value> 1235</value>
+  </key>
+  <key type="booleans" name="project_view-filter-whole-word" >
+    <value>FALSE</value>
+  </key>
+  <key type="strings" name="preferences_editor_search-width" >
+    <value> 25</value>
+  </key>
+  <key type="strings" name="locations-filter-recent" >
+    <value>f+ fan</value>
+    <value>f+ monitor</value>
+    <value>f+ prv_fan</value>
+    <value>f+ temp</value>
+    <value>f+ monito</value>
+    <Length> 5</Length>
+  </key>
+  <key type="strings" name="Goto_Line" >
+    <value>213</value>
+    <value>162</value>
+    <value>228</value>
+    <value>241</value>
+    <value>711</value>
+    <value>335</value>
+    <value>284</value>
+    <value>646</value>
+    <value>channel</value>
+    <value>71</value>
+  </key>
+  <key type="strings" name="window_x_Preferences" >
+    <value> 537</value>
+    <value> 8</value>
+  </key>
+  <key type="booleans" name="Call_Graph_Show_Locations" >
+    <value>TRUE</value>
+  </key>
+  <key type="strings" name="directories" >
+    <value>/home/dev/ouroboros/css/src/pikeos/middleware/core_sequencer_highpriv/src/vkb/</value>
+    <value>/home/dev/ouroboros/css/src/pikeos/middleware/core_sequencer_highpriv/src/</value>
+    <value>/home/dev/ouroboros/css/src/pikeos/middleware/core_sequencer_highpriv/</value>
+    <value>/home/dev/ouroboros/css/src/pikeos/middleware/</value>
+    <value>/home/dev/ouroboros/css/src/pikeos/</value>
+    <value>/home/dev/ouroboros/css/src/</value>
+  </key>
+  <key type="booleans" name="case_sensitive_search" >
+    <value>FALSE</value>
+  </key>
+  <key type="strings" name="outline-filter-recent" >
+    <Length> 5</Length>
+  </key>
+  <key type="strings" name="project_view-filter-recent" >
+    <value>f+ fan</value>
+    <value>f+ cha_com</value>
+    <value>f+ project</value>
+    <value>f+ config</value>
+    <value>f+ sequence</value>
+    <Length> 5</Length>
+  </key>
+  <key type="strings" name="search_mode" >
+    <value>FIND_ONLY</value>
+    <Length> 1</Length>
+  </key>
+  <key type="booleans" name="whole_word_search" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="global_searchglobal_search-case_sensitive" >
+    <value>FALSE</value>
+  </key>
+  <key type="strings" name="search-recent-Opened" >
+    <value>/home/dev/ouroboros/css/src/pikeos/middleware/kernel_highpriv/src/board_env/css_mw-board_env-insul_inhib-requests.adb - Project : /home/dev/ouroboros/css/appli/sdk_external_lib/sdk_external_lib.gpr</value>
+    <value>/home/dev/ouroboros/css/src/pikeos/middleware/core_sequencer_highpriv/src/vkb/css_mw-vkb-prv_power_supply.adb - Project : /home/dev/ouroboros/css/appli/sdk_external_lib/sdk_external_lib.gpr</value>
+    <Length> 5</Length>
+  </key>
+  <key type="booleans" name="outline-filter-whole-word" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="locations-filter-whole-word" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="keyshortcuts-filter-fuzzy" >
+    <value>FALSE</value>
+  </key>
+  <key type="strings" name="search-recent-File names"  />
+  <key type="strings" name="keyshortcuts-filter-recent" >
+    <Length> 5</Length>
+  </key>
+  <key type="strings" name="interactive" >
+    <Length> 100</Length>
+  </key>
+  <key type="booleans" name="project_view-filter-fuzzy" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="global_searchglobal_search-whole_word" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="global_search-preview" >
+    <value>TRUE</value>
+  </key>
+  <key type="strings" name="window_y_Search" >
+    <value> 176</value>
+    <value> 139</value>
+    <value> 530</value>
+    <value> 450</value>
+    <value> 212</value>
+    <value> 614</value>
+    <value> 90</value>
+    <value> 105</value>
+    <value> 124</value>
+    <value> 250</value>
+  </key>
+  <key type="strings" name="search-recent-Preferences" >
+    <value>Auto-Reload-Files</value>
+    <Length> 5</Length>
+  </key>
+  <key type="booleans" name="locations-filter-is-regexp" >
+    <value>FALSE</value>
+  </key>
+  <key type="strings" name="search_replace" >
+    <value>Param_Protection_Name_C</value>
+    <value>Check_Parameters_Expected_Integrity_Code</value>
+    <value>Nb_Cycle_For_Nominal_Freq_C</value>
+    <value>Nb_Cycle_For_Low_Freq_C</value>
+    <value>Set_Min_Cpu_Temperature</value>
+    <Length> 5</Length>
+  </key>
+  <key type="strings" name="search_patterns" >
+    <value>cha_com Synchro_Messages   </value>
+    <value>cha_com Synchro_Message   </value>
+    <value>cha_com Synchro_Messag   </value>
+    <value>cha_com Synchro_Messa   </value>
+    <value>cha_com Synchro_Mess   </value>
+    <Length> 5</Length>
+  </key>
+  <key type="strings" name="global_search-kind" >
+    <value>FUZZY</value>
+    <value>FULL_TEXT</value>
+    <Length> 1</Length>
+  </key>
+  <key type="strings" name="reopen_files" >
+    <value>/home/dev/ouroboros/css/src/pikeos/middleware/kernel_highpriv/src/network/css_mw-network-cha_com-core-services.adb</value>
+    <value>/home/dev/ouroboros/css/appli/csw/src/btom/caa/csw-btom-caa-sequencer.adb</value>
+    <value>/home/dev/ouroboros/css/src/pikeos/middleware/kernel_highpriv/src/configuration/css_mw-configuration-parameters-project.adb</value>
+    <value>/home/dev/ouroboros/css/src/pikeos/middleware/kernel_highpriv/src/configuration/css_mw-configuration-soft_integrity-services.ads</value>
+    <value>/home/dev/ouroboros/css/appli/csw/src/configuration/css_mw-configuration-soft_integrity-services-swint.ads</value>
+    <value>/home/dev/ouroboros/css/appli/csw/src/configuration/csw-configuration-bss.adb</value>
+    <value>/home/dev/ouroboros/css/src/pikeos/middleware/kernel_highpriv/src/monitoring/css_mw-monitoring-logs-services.adb</value>
+    <value>/home/dev/ouroboros/css/src/pikeos/middleware/kernel_highpriv/src/monitoring/css_mw-monitoring-logs-services.ads</value>
+    <value>/home/dev/ouroboros/css/src/pikeos/middleware/kernel_highpriv/src/configuration/css_mw-configuration-soft_integrity-minimal_computation.adb</value>
+    <value>/home/dev/ouroboros/css/appli/csw/src/common/csw-sequencer-main_loop.adb</value>
+  </key>
+  <key type="booleans" name="keyshortcuts-filter-whole-word" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="search-displays-relative-paths" >
+    <value>FALSE</value>
+  </key>
+  <key type="strings" name="search-recent-Plugins"  />
+  <key type="booleans" name="outline-filter-fuzzy" >
+    <value>FALSE</value>
+  </key>
+  <key type="strings" name="Make" >
+    <value>make %vars -f %attr(make\&apos;makefile,Makefile) %T</value>
+    <value>make %vars -f %attr(make&apos;makefile,Makefile) %T</value>
+  </key>
+  <key type="strings" name="Clean All" >
+    <value>%gprclean -r %eL -P%PP %X</value>
+  </key>
+  <key type="booleans" name="outline-filter-negate" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="locations-filter-negate" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="keyshortcuts-filter-is-regexp" >
+    <value>FALSE</value>
+  </key>
+  <key type="strings" name="window_y_Preferences" >
+    <value> 160</value>
+    <value> 31</value>
+  </key>
+  <key type="strings" name="preferences_editor_search-kind" >
+    <value>FUZZY</value>
+    <value>FULL_TEXT</value>
+    <Length> 1</Length>
+  </key>
+  <key type="strings" name="search_module" >
+    <Length> 1</Length>
+  </key>
+  <key type="booleans" name="project_view-filter-is-regexp" >
+    <value>FALSE</value>
+  </key>
+  <key type="strings" name="global_search-width" >
+    <value> 25</value>
+  </key>
+  <key type="strings" name="key-theme" >
+    <value>default</value>
+    <Length> 1</Length>
+  </key>
+  <key type="booleans" name="regexp_search" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="preferences_editor_search-preview" >
+    <value>TRUE</value>
+  </key>
+  <key type="strings" name="project_files" >
+    <value>/home/dev/ouroboros/css/appli/top/appli_agg.gpr</value>
+  </key>
+  <key type="strings" name="global-search-entry-Entities" >
+    <Length> 1</Length>
+  </key>
+  <key type="booleans" name="project_view-filter-negate" >
+    <value>FALSE</value>
+  </key>
+  <key type="booleans" name="locations-filter-fuzzy" >
+    <value>FALSE</value>
+  </key>
+  <key type="strings" name="python_console" >
+    <Length> 100</Length>
+  </key>
+  <key type="strings" name="search-recent-Specific file"  />
+  <key type="booleans" name="outline-filter-is-regexp" >
+    <value>FALSE</value>
+  </key>
+</History>

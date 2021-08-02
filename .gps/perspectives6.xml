@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<GPS >
+  <perspectives state=" 0" mdi_height=" 961" mdi_width=" 1920" height=" 1017" width=" 1920"  >
+    <perspective name="Default">
+      <Pane width=" 1.00000E+02%" Orientation="ORIENTATION_HORIZONTAL" >
+        <Pane width=" 2.78766E+01%" Orientation="ORIENTATION_VERTICAL" >
+          <Notebook height=" 5.30955E+01%" Tabs="POS_LEFT" >
+            <Child Raised="True" Group=" 106" State="NORMAL" >
+              <Project_Explorer_Project />
+            </Child>
+            <Child Group=" 106" State="NORMAL" >
+              <Scenario_View />
+            </Child>
+          </Notebook>
+          <Notebook height=" 4.73242E+01%" Tabs="POS_LEFT" >
+            <Child Group=" 106" State="NORMAL" >
+              <Learn_View />
+            </Child>
+            <Child Raised="True" Group=" 106" State="NORMAL" >
+              <Outline_View />
+            </Child>
+          </Notebook>
+        </Pane>
+        <Pane width=" 7.23326E+01%" Orientation="ORIENTATION_VERTICAL" >
+          <central height=" 6.82057E+01%"  />
+          <Pane height=" 3.22141E+01%" Orientation="ORIENTATION_HORIZONTAL" >
+            <Notebook width=" 1.80364E+01%" Tabs="POS_TOP" >
+              <Child Raised="True" Group=" 107" State="NORMAL" >
+                <Message_Window />
+              </Child>
+            </Notebook>
+            <Notebook width=" 8.22545E+01%" Tabs="POS_TOP" >
+              <Child Raised="True" Group=" 107" State="NORMAL" >
+                <Location_View_Record />
+              </Child>
+              <Child Group=" 107" State="NORMAL" >
+                <Callgraph_View />
+              </Child>
+            </Notebook>
+          </Pane>
+        </Pane>
+      </Pane>
+    </perspective>
+    <perspective name="Debug" save_as_central="false">
+      <Pane width=" 1.00000E+02%" Orientation="ORIENTATION_HORIZONTAL">
+        <Pane width=" 2.75157E+01%" Orientation="ORIENTATION_VERTICAL">
+          <Notebook height=" 5.02387E+01%" Tabs="POS_LEFT">
+            <Child Raised="True" Group=" 106" State="NORMAL">
+              <Project_Explorer_Project  />
+            </Child>
+          </Notebook>
+          <Notebook height=" 5.02387E+01%" Tabs="POS_LEFT">
+            <Child Group=" 107" State="NORMAL">
+              <Breakpoints  />
+            </Child>
+            <Child Raised="True" Group=" 106" State="NORMAL">
+              <Outline_View  />
+            </Child>
+          </Notebook>
+        </Pane>
+        <Pane width=" 7.27987E+01%" Orientation="ORIENTATION_VERTICAL">
+          <Pane height=" 6.82578E+01%" Orientation="ORIENTATION_HORIZONTAL">
+            <central width=" 7.09150E+01%" />
+            <Pane width=" 2.96296E+01%" Orientation="ORIENTATION_VERTICAL">
+              <Notebook height=" 5.03546E+01%" Tabs="POS_RIGHT">
+                <Child Raised="True" Group=" 107" State="NORMAL">
+                  <Debugger_Variables  />
+                </Child>
+              </Notebook>
+              <Notebook height=" 5.03546E+01%" Tabs="POS_RIGHT">
+                <Child Raised="True" Group=" 103" State="NORMAL">
+                  <Call_Stack  />
+                </Child>
+              </Notebook>
+            </Pane>
+          </Pane>
+          <Pane height=" 3.22196E+01%" Orientation="ORIENTATION_HORIZONTAL">
+            <Notebook width=" 5.02179E+01%" Tabs="POS_TOP">
+              <Child Group=" 107" State="NORMAL">
+                <Message_Window  />
+              </Child>
+              <Child Raised="True" Group=" 107" State="NORMAL">
+                <Debugger_Console  />
+              </Child>
+            </Notebook>
+            <Notebook width=" 5.02179E+01%" Tabs="POS_TOP">
+              <Child Raised="True" Focus="True" Group=" 107" State="NORMAL">
+                <Location_View_Record  />
+              </Child>
+            </Notebook>
+          </Pane>
+        </Pane>
+      </Pane>
+    </perspective>
+    <perspective name="Analyze">
+      <Pane width=" 1.00000E+02%" Orientation="ORIENTATION_HORIZONTAL">
+        <Notebook width=" 2.10251E+01%" Tabs="POS_LEFT">
+          <Child Group=" 106" State="NORMAL">
+            <Project_Explorer_Project  />
+          </Child>
+          <Child Group=" 106" State="NORMAL">
+            <Outline_View  />
+          </Child>
+          <Child Group=" 106" State="NORMAL">
+            <Scenario_View  />
+          </Child>
+          <Child Raised="True" Group=" 106" State="NORMAL">
+            <gnathub_filters  />
+          </Child>
+        </Notebook>
+        <Pane width=" 7.91841E+01%" Orientation="ORIENTATION_VERTICAL">
+          <central height=" 7.82518E+01%" />
+          <Notebook height=" 2.21644E+01%" Tabs="POS_TOP">
+            <Child Group=" 107" State="NORMAL">
+              <Message_Window  />
+            </Child>
+            <Child Raised="True" Focus="True" Group=" 107" State="NORMAL">
+              <Location_View_Record  />
+            </Child>
+          </Notebook>
+        </Pane>
+      </Pane>
+    </perspective>
+    <perspective name="VCS">
+      <Pane width=" 100%" Orientation="ORIENTATION_HORIZONTAL">
+        <Notebook width=" 1.38913E+01%" Tabs="POS_LEFT">
+          <Child Raised="True" Group=" 106" State="NORMAL">
+            <Project_Explorer_Project  />
+          </Child>
+        </Notebook>
+        <Pane width=" 3.65833E+01%" Orientation="ORIENTATION_VERTICAL">
+          <central height=" 6.61446E+01%" />
+          <Notebook height=" 3.43373E+01%" Tabs="POS_TOP">
+            <Child Group=" 107" State="NORMAL">
+              <Message_Window  />
+            </Child>
+            <Child Raised="True" Focus="True" Group=" 106" State="NORMAL">
+              <Branches  />
+            </Child>
+          </Notebook>
+        </Pane>
+        <Notebook width=" 2.55393E+01%" Tabs="POS_TOP">
+          <Child Raised="True" Group=" 106" State="NORMAL">
+            <VCS_History  />
+          </Child>
+        </Notebook>
+        <Notebook width=" 2.43313E+01%" Tabs="POS_TOP">
+          <Child Raised="True" Group=" 106" State="NORMAL">
+            <Commits  />
+          </Child>
+        </Notebook>
+      </Pane>
+    </perspective>
+    <perspective name="Maximized Editors">
+      <Pane width=" 1.00000E+02%" Orientation="ORIENTATION_HORIZONTAL">
+        <Pane width=" 2.57886E+01%" Orientation="ORIENTATION_VERTICAL">
+          <Notebook height=" 5.02387E+01%" Tabs="POS_LEFT">
+            <Child Raised="True" Group=" 106" State="NORMAL">
+              <Project_Explorer_Project  />
+            </Child>
+            <Child Group=" 106" State="NORMAL">
+              <Scenario_View  />
+            </Child>
+          </Notebook>
+          <Notebook height=" 5.02387E+01%" Tabs="POS_LEFT">
+            <Child Raised="True" Group=" 106" State="NORMAL">
+              <Outline_View  />
+            </Child>
+          </Notebook>
+        </Pane>
+        <central width=" 4.81861E+01%" />
+        <Pane width=" 2.63407E+01%" Orientation="ORIENTATION_VERTICAL">
+          <Notebook height=" 5.02387E+01%" Tabs="POS_RIGHT">
+            <Child Raised="True" Group=" 107" State="NORMAL">
+              <Message_Window  />
+            </Child>
+          </Notebook>
+          <Notebook height=" 5.02387E+01%" Tabs="POS_RIGHT">
+            <Child Raised="True" Group=" 107" State="NORMAL">
+              <Location_View_Record  />
+            </Child>
+          </Notebook>
+        </Pane>
+      </Pane>
+    </perspective>
+  </perspectives>
+  <desktops >
+    <desktop perspective="Default" >
+      <vfs_project>/home/dev/ouroboros/css/appli/top/appli_agg.gpr</vfs_project>
+      <Learn_View>
+        <learn position=" 4.98807E+01%"  />
+      </Learn_View>
+      <Callgraph_View>
+        <callgraph position=" 5.11052E+01%" >
+          <entity entity_project="/home/dev/ouroboros/css/appli/csw/csw.gpr" entity_column="14" entity_line="72" entity_decl="/home/dev/ouroboros/css/appli/csw/src/configuration/csw-configuration-sequencer.ads" entity_name="Call_Access_Train_Appli_Parameters" type="VIEW_CALLED_BY" decl="csw-configuration-sequencer.ads:72:14" name="Call_Access_Train_Appli_Parameters is called by " expanded="true" >
+            <entity entity_project="/home/dev/ouroboros/css/appli/csw/csw.gpr" entity_column="14" entity_line="41" entity_decl="/home/dev/ouroboros/css/appli/csw/src/configuration/csw-configuration-sequencer.ads" entity_name="Csw_Execute_Service_In_All_Priv" type="VIEW_CALLED_BY" decl="csw-configuration-sequencer.ads:41:14" name="Csw_Execute_Service_In_All_Priv" expanded="true" >
+              <loc file="/home/dev/ouroboros/css/appli/csw/src/configuration/csw-configuration-sequencer.adb" column=" 10" line=" 154"  />
+              <entity entity_project="/home/dev/ouroboros/css/appli/csw/csw.gpr" entity_column="14" entity_line="39" entity_decl="/home/dev/ouroboros/css/appli/csw/src/common/csw-sequencer-main_loop.ads" entity_name="Tests_All_Loops_All_Appli_Priv_Level" type="VIEW_CALLED_BY" decl="csw-sequencer-main_loop.ads:39:14" name="Tests_All_Loops_All_Appli_Priv_Level" >
+                <loc file="/home/dev/ouroboros/css/appli/csw/src/common/csw-sequencer-main_loop.adb" column=" 35" line=" 112"  />
+              </entity>
+            </entity>
+            <entity entity_project="/home/dev/ouroboros/css/appli/csw/csw.gpr" entity_column="14" entity_line="47" entity_decl="/home/dev/ouroboros/css/appli/csw/src/configuration/csw-configuration-sequencer.ads" entity_name="Csw_Second_Init_In_All_Priv" type="VIEW_CALLED_BY" decl="csw-configuration-sequencer.ads:47:14" name="Csw_Second_Init_In_All_Priv" >
+              <loc file="/home/dev/ouroboros/css/appli/csw/src/configuration/csw-configuration-sequencer.adb" column=" 10" line=" 169"  />
+            </entity>
+          </entity>
+          <entity entity_project="/home/dev/ouroboros/css/appli/sdk_external_lib/sdk_external_lib.gpr" entity_column="14" entity_line="247" entity_decl="/home/dev/ouroboros/css/src/pikeos/middleware/kernel_highpriv/src/configuration/css_mw-configuration-parameters.ads" entity_name="Check_Parameters_Expected_Integrity_Code" type="VIEW_CALLED_BY" decl="css_mw-configuration-parameters.ads:247:14" name="Check_Parameters_Expected_Integrity_Code is called by " expanded="true" >
+            <entity entity_project="/home/dev/ouroboros/css/appli/sdk_external_lib/sdk_external_lib.gpr" entity_column="14" entity_line="57" entity_decl="/home/dev/ouroboros/css/src/pikeos/middleware/kernel_highpriv/src/configuration/css_mw-configuration-parameters-appli.ads" entity_name="Initialize" type="VIEW_CALLED_BY" decl="css_mw-configuration-parameters-appli.ads:57:14" name="Initialize" expanded="true" >
+              <loc file="/home/dev/ouroboros/css/src/pikeos/middleware/kernel_highpriv/src/configuration/css_mw-configuration-parameters-appli.adb" column=" 25" line=" 499"  />
+              <entity entity_project="/home/dev/ouroboros/css/appli/sdk_external_lib/sdk_external_lib.gpr" entity_column="14" entity_line="54" entity_decl="/home/dev/ouroboros/css/src/pikeos/middleware/kernel_highpriv/src/configuration/css_mw-configuration-init.ads" entity_name="Initialize" type="VIEW_CALLED_BY" decl="css_mw-configuration-init.ads:54:14" name="Initialize" >
+                <loc file="/home/dev/ouroboros/css/src/pikeos/middleware/kernel_highpriv/src/configuration/css_mw-configuration-init.adb" column=" 38" line=" 110"  />
+              </entity>
+            </entity>
+          </entity>
+          <entity entity_project="/home/dev/ouroboros/css/appli/sdk_external_lib/sdk_external_lib.gpr" entity_column="14" entity_line="219" entity_decl="/home/dev/ouroboros/css/src/pikeos/middleware/kernel_highpriv/src/configuration/css_mw-configuration-parameters.ads" entity_name="Register_And_Local_Check_Parameters" type="VIEW_CALLED_BY" decl="css_mw-configuration-parameters.ads:219:14" name="Register_And_Local_Check_Parameters is called by " expanded="true" >
+            <entity entity_project="/home/dev/ouroboros/css/appli/sdk_external_lib/sdk_external_lib.gpr" entity_column="14" entity_line="74" entity_decl="/home/dev/ouroboros/css/src/pikeos/middleware/kernel_highpriv/src/configuration/css_mw-configuration-parameters-train.ads" entity_name="Initialize" type="VIEW_CALLED_BY" decl="css_mw-configuration-parameters-train.ads:74:14" name="Initialize" expanded="true" >
+              <loc file="/home/dev/ouroboros/css/src/pikeos/middleware/kernel_highpriv/src/configuration/css_mw-configuration-parameters-train.adb" column=" 18" line=" 187"  />
+              <entity entity_project="/home/dev/ouroboros/css/appli/sdk_external_lib/sdk_external_lib.gpr" entity_column="14" entity_line="54" entity_decl="/home/dev/ouroboros/css/src/pikeos/middleware/kernel_highpriv/src/configuration/css_mw-configuration-init.ads" entity_name="Initialize" type="VIEW_CALLED_BY" decl="css_mw-configuration-init.ads:54:14" name="Initialize" >
+                <loc file="/home/dev/ouroboros/css/src/pikeos/middleware/kernel_highpriv/src/configuration/css_mw-configuration-init.adb" column=" 38" line=" 108"  />
+              </entity>
+            </entity>
+            <entity entity_project="/home/dev/ouroboros/css/appli/sdk_external_lib/sdk_external_lib.gpr" entity_column="14" entity_line="121" entity_decl="/home/dev/ouroboros/css/src/pikeos/middleware/kernel_highpriv/src/configuration/css_mw-configuration-parameters-prv_group_collection.ads" entity_name="Open_And_Check_Collection" type="VIEW_CALLED_BY" decl="css_mw-configuration-parameters-prv_group_collection.ads:121:14" name="Open_And_Check_Collection" >
+              <loc file="/home/dev/ouroboros/css/src/pikeos/middleware/kernel_highpriv/src/configuration/css_mw-configuration-parameters-prv_group_collection.adb" column=" 10" line=" 213"  />
+            </entity>
+          </entity>
+        </callgraph>
+      </Callgraph_View>
+      <Pane width=" 1.00000E+02%" Orientation="ORIENTATION_HORIZONTAL" >
+        <Notebook width=" 1.00290E+02%" Tabs="POS_TOP" >
+          <Child Raised="True" Focus="True" Group=" 1" State="NORMAL" >
+            <Source_Editor>
+              <project>/home/dev/ouroboros/css/appli/csw/csw.gpr</project>
+              <Column_End>1</Column_End>
+              <Column>1</Column>
+              <Line>407</Line>
+              <vfs_File>/home/dev/ouroboros/css/appli/csw/src/monitoring/csw-monitoring-fan_readback.adb</vfs_File>
+            </Source_Editor>
+          </Child>
+        </Notebook>
+      </Pane>
+    </desktop>
+    <desktop perspective="Default">
+      <vfs_project >/home/dev/ouroboros/css/src/pikeos/middleware/core_main/core_main.gpr</vfs_project>
+      <Learn_View >
+        <learn position=" 4.97326E+01%" />
+      </Learn_View>
+      <Callgraph_View >
+        <callgraph position=" 4.99246E+01%" />
+      </Callgraph_View>
+      <Pane width=" 1.00000E+02%" Orientation="ORIENTATION_HORIZONTAL">
+        <Notebook width=" 1.00326E+02%" Tabs="POS_TOP">
+          <Child Group=" 1" State="NORMAL">
+            <Welcome  />
+          </Child>
+          <Child Raised="True" Focus="True" Group=" 1" State="NORMAL">
+            <Source_Editor >
+              <project  />
+              <Column_End >25</Column_End>
+              <Column >25</Column>
+              <Line >22</Line>
+              <vfs_File >/home/dev/ouroboros/css/src/pikeos/middleware/core_main/core_main.gpr</vfs_File>
+            </Source_Editor>
+          </Child>
+        </Notebook>
+      </Pane>
+    </desktop>
+  </desktops>
+</GPS>

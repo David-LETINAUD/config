@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Clipboard>
+  <clipboard last="true" >      Nb_Cycle_After_Failure_C    : constant Unsigned_32_T
+        := (Unsigned_32_T(Fan_Param.Failure_Time_In_S)
+            * Unsigned_32_T(Css_Mw.Real_Time.Ratio_Us_To_S_C) / Sl_Loop_Period_C)</clipboard>
+  <clipboard>      Sl_Loop_Period_C            : constant Unsigned_32_T
+        := Unsigned_32_T(Css_Mw.Css.Main_Sequencer.Swint.Get_Loop_Period(
+                         Current_Loop =&gt; Css_Mw.Board_Env.Loops.Short_Loop));</clipboard>
+  <clipboard>End of Access_Train_Appli_Parameters</clipboard>
+  <clipboard>Check_Test_Sw_And_Safe_Param_Signature_Nominal</clipboard>
+  <clipboard>Sw_Version_Signature</clipboard>
+  <clipboard>Param_Protection_Name_C</clipboard>
+  <clipboard>Expected integrity code invalid for</clipboard>
+  <clipboard>Is_Integrity_Code_Valid</clipboard>
+  <clipboard>      Log(Log_Module_Id =&gt; Parameters_Mgt_Module_Log_Id,
+          Level         =&gt; Error,
+          Str1          =&gt; &quot;INIT appli_valid : &quot; &amp; Boolean&apos;Image(Is_Every_Appli_Parameters_Valid));</clipboard>
+  <clipboard>Expected_Integrity_Code</clipboard>
+</Clipboard>

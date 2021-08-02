@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<targets>
+  <target model="make" category="Makefile" menu="/_Build/" name="Make">
+    <in-toolbar>TRUE</in-toolbar>
+    <iconname>gps-build-all-symbolic</iconname>
+    <visible>TRUE</visible>
+    <in-menu>TRUE</in-menu>
+    <in-contextual-menus-for-projects>FALSE</in-contextual-menus-for-projects>
+    <in-contextual-menus-for-files>FALSE</in-contextual-menus-for-files>
+    <launch-mode>MANUALLY_WITH_NO_DIALOG</launch-mode>
+    <read-only>TRUE</read-only>
+    <target-type>make</target-type>
+    <key />
+    <server>GPS_SERVER</server>
+    <output-parsers>output_chopper utf_converter progress_parser console_writer location_parser text_splitter output_collector elaboration_cycles elaboration_cycles_20 linker_parser end_of_build</output-parsers>
+    <command-line>
+      <arg>make</arg>
+      <arg>%vars</arg>
+      <arg>-f</arg>
+      <arg>%attr(make&apos;makefile,Makefile)</arg>
+      <arg>%T</arg>
+    </command-line>
+  </target>
+  <target model="python" category="_Workflow_" menu="/Build/Emulator/Run test driver with emulator/" name="Run test driver with emulator">
+    <in-toolbar>TRUE</in-toolbar>
+    <iconname>gps-gnattest-run</iconname>
+    <visible>FALSE</visible>
+    <in-menu>TRUE</in-menu>
+    <in-contextual-menus-for-projects>FALSE</in-contextual-menus-for-projects>
+    <in-contextual-menus-for-files>FALSE</in-contextual-menus-for-files>
+    <launch-mode>MANUALLY_WITH_NO_DIALOG</launch-mode>
+    <read-only>FALSE</read-only>
+    <target-type>main</target-type>
+    <key />
+    <server>GPS_SERVER</server>
+    <output-parsers>output_chopper utf_converter progress_parser console_writer location_parser text_splitter output_collector elaboration_cycles elaboration_cycles_20 linker_parser end_of_build</output-parsers>
+    <command-line>
+      <arg>workflows.run_registered_workflows(&quot;run-test-driver-with-emulator&quot;, &quot;Run test driver with emulator&quot;, &quot;</arg>
+      <arg>%TT</arg>
+      <arg>&quot;)</arg>
+    </command-line>
+  </target>
+  <target model="python" category="_Workflow_" menu="/Build/Emulator/Run test-drivers list with emulator/" name="Run test-drivers list with emulator">
+    <in-toolbar>TRUE</in-toolbar>
+    <iconname>gps-gnattest-run</iconname>
+    <visible>FALSE</visible>
+    <in-menu>TRUE</in-menu>
+    <in-contextual-menus-for-projects>FALSE</in-contextual-menus-for-projects>
+    <in-contextual-menus-for-files>FALSE</in-contextual-menus-for-files>
+    <launch-mode>MANUALLY_WITH_NO_DIALOG</launch-mode>
+    <read-only>FALSE</read-only>
+    <target-type>main</target-type>
+    <key />
+    <server>GPS_SERVER</server>
+    <output-parsers>output_chopper utf_converter progress_parser console_writer location_parser text_splitter output_collector elaboration_cycles elaboration_cycles_20 linker_parser end_of_build</output-parsers>
+    <command-line>
+      <arg>workflows.run_registered_workflows(&quot;run-test-drivers-list-with-emulator&quot;, &quot;Run test-drivers list with emulator&quot;, &quot;</arg>
+      <arg>%TT</arg>
+      <arg>&quot;)</arg>
+    </command-line>
+  </target>
+  <target model="python" category="_Workflow_" menu="/Build/Project/Build &amp; Run/" name="Build &amp; Run">
+    <in-toolbar>TRUE</in-toolbar>
+    <iconname>gps-run-symbolic</iconname>
+    <visible>FALSE</visible>
+    <in-menu>TRUE</in-menu>
+    <in-contextual-menus-for-projects>FALSE</in-contextual-menus-for-projects>
+    <in-contextual-menus-for-files>FALSE</in-contextual-menus-for-files>
+    <launch-mode>MANUALLY_WITH_NO_DIALOG</launch-mode>
+    <read-only>FALSE</read-only>
+    <target-type>main</target-type>
+    <key />
+    <server>GPS_SERVER</server>
+    <output-parsers>output_chopper utf_converter progress_parser console_writer location_parser text_splitter output_collector elaboration_cycles elaboration_cycles_20 linker_parser end_of_build</output-parsers>
+    <command-line>
+      <arg>workflows.run_registered_workflows(&quot;build-and-run&quot;, &quot;Build &amp; Run&quot;, &quot;</arg>
+      <arg>%TT</arg>
+      <arg>&quot;)</arg>
+    </command-line>
+  </target>
+  <target model="python" category="_Workflow_" menu="/Build/Project/Build &amp; Debug/" name="Build &amp; Debug">
+    <in-toolbar>TRUE</in-toolbar>
+    <iconname>gps-debugger-initialize-symbolic</iconname>
+    <visible>FALSE</visible>
+    <in-menu>TRUE</in-menu>
+    <in-contextual-menus-for-projects>FALSE</in-contextual-menus-for-projects>
+    <in-contextual-menus-for-files>FALSE</in-contextual-menus-for-files>
+    <launch-mode>MANUALLY_WITH_NO_DIALOG</launch-mode>
+    <read-only>FALSE</read-only>
+    <target-type>main</target-type>
+    <key />
+    <server>GPS_SERVER</server>
+    <output-parsers>output_chopper utf_converter progress_parser console_writer location_parser text_splitter output_collector elaboration_cycles elaboration_cycles_20 linker_parser end_of_build</output-parsers>
+    <command-line>
+      <arg>workflows.run_registered_workflows(&quot;build-and-debug&quot;, &quot;Build &amp; Debug&quot;, &quot;</arg>
+      <arg>%TT</arg>
+      <arg>&quot;)</arg>
+    </command-line>
+  </target>
+  <target model="python" category="_Workflow_" menu="/Build/Bareboard/Flash to Board/" name="Flash to Board">
+    <in-toolbar>TRUE</in-toolbar>
+    <iconname>gps-boardloading-flash-symbolic</iconname>
+    <visible>FALSE</visible>
+    <in-menu>TRUE</in-menu>
+    <in-contextual-menus-for-projects>FALSE</in-contextual-menus-for-projects>
+    <in-contextual-menus-for-files>FALSE</in-contextual-menus-for-files>
+    <launch-mode>MANUALLY_WITH_NO_DIALOG</launch-mode>
+    <read-only>FALSE</read-only>
+    <target-type>main</target-type>
+    <key />
+    <server>GPS_SERVER</server>
+    <output-parsers>output_chopper utf_converter progress_parser console_writer location_parser text_splitter output_collector elaboration_cycles elaboration_cycles_20 linker_parser end_of_build</output-parsers>
+    <command-line>
+      <arg>workflows.run_registered_workflows(&quot;flash-to-board&quot;, &quot;Flash to Board&quot;, &quot;</arg>
+      <arg>%TT</arg>
+      <arg>&quot;)</arg>
+    </command-line>
+  </target>
+  <target model="python" category="_Workflow_" menu="/Build/Bareboard/" name="Flash &lt;current file&gt; to Board">
+    <in-toolbar>FALSE</in-toolbar>
+    <iconname>gps-boardloading-flash-symbolic</iconname>
+    <visible>FALSE</visible>
+    <in-menu>TRUE</in-menu>
+    <in-contextual-menus-for-projects>FALSE</in-contextual-menus-for-projects>
+    <in-contextual-menus-for-files>FALSE</in-contextual-menus-for-files>
+    <launch-mode>MANUALLY_WITH_NO_DIALOG</launch-mode>
+    <read-only>FALSE</read-only>
+    <target-type />
+    <key />
+    <server>GPS_SERVER</server>
+    <output-parsers>output_chopper utf_converter progress_parser console_writer location_parser text_splitter output_collector elaboration_cycles elaboration_cycles_20 linker_parser end_of_build</output-parsers>
+    <command-line>
+      <arg>workflows.run_registered_workflows(&quot;flash-current-to-board&quot;, &quot;Flash &lt;current file&gt; to Board&quot;, &quot;</arg>
+      <arg>%fp</arg>
+      <arg>&quot;)</arg>
+    </command-line>
+  </target>
+</targets>
