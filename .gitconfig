@@ -1,24 +1,30 @@
 [reviewboard]
-	url = https://reviewboard-vbn.alstom.hub/
+  url = https://reviewboard-vbn.alstom.hub/
 [clangFormat]
-	binary = clang-format
-	extension = c, h
-	style = file
+  binary = clang-format
+  extension = c, h
+  style = file
 [init]
-	templatedir = /home/dev/ouroboros/tools/git-templates/
+  templatedir = /home/dev/ouroboros/tools/git-templates/
 [user]
-	login = e_dletin
-	name = David Letinaud
-	email = david.letinaud-ext@alstomgroup.com
+  login = e_dletin
+  name = David Letinaud
+  email = david.letinaud-ext@alstomgroup.com
 [push]
-	default = simple
+  default = simple
 
 [alias]
-	s = status -uno
-	c = checkout
-	d = diff
-	p = push
-	a = add
-	b = branch
+  a = add
+  s = status
+  c = checkout
+  d = diff
+  p = push
+  b = branch
+  lad = log --all --graph --pretty=format:'%Cgreen%ad%Creset %C(auto)%h%d %s %C(bold black)<%aN>%Creset' --date=format-local:'%Y-%m-%d %H:%M (%a)'
 [core]
-	editor = vim
+  editor = vim
+
+[status]
+  showUntrackedFiles = no
+
+[url "ssh://git@github.com/"]
