@@ -1,30 +1,118 @@
-" SEARCHING IN FILES:
-   "####################"
+" Don't try to be vi compatible
+set nocompatible
 
-   " map vimgrep on F4, search for word under the cursor in all file recursively.
-   " Do not jump, just populate quickfix tab
-   " if file does not have extension, search in all file in current location
-   " (warning, this can be very long)
-map <F4> :execute 'vimgrep /'.expand('<cword>').'/gj **/*'.(expand("%:e")=="" ? "" : ".".expand("%:e"))  <Bar> cw<CR>
+" Helps force plugins to load correctly when it is turned back on below
+filetype off
+" TODO: Load plugins here (pathogen or vundle)
 
-" this is really ugly and all, but I have not find something cool to search in
-" multiple path with vimgrep.. so switching context mate
-map <F5> :cd /home/dev/ouroboros/css/ <CR>
-map <F6> :cd /home/dev/ouroboros/swint/ <CR>
-map <F7> :cd /home/dev/ouroboros/cs_common/ <CR>
+" Turn on syntax highlighting
+syntax on
 
-" shortcut // to search for visually selected text
-vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
+" For plugins to load correctly
+filetype plugin indent on
 
-" shortcut to vimgrep on every file with a given extension
-command -nargs=+ Vim :vimgrep // **/*.<args>
+" TODO: Pick a leader key
+" let mapleader = ","
 
+" Security
+set modelines=0
 
-" Display line numbers on the left
+" Show line numbers
 set number
 
-" Indentation settings for using 4 spaces instead of tabs.
-" Do not change 'tabstop' from its default value of 8 with this setup.
+" Show file stats
+set ruler
+
+" Blink cursor on error instead of beeping (grr)
+set visualbell
+
+" Encoding
+set encoding=utf-8
+
+" Whitespace
+set wrap
+set textwidth=79
+set formatoptions=tcqrn1
+set tabstop=2
 set shiftwidth=4
-set softtabstop=4
+set softtabstop=2
 set expandtab
+set noshiftround
+
+" Cursor motion
+set scrolloff=3
+set backspace=indent,eol,start
+set matchpairs+=<:> " use % to jump between pairs
+runtime! macros/matchit.vim
+
+" Move up/down editor lines
+nnoremap j gj
+nnoremap k gk
+
+" Allow hidden buffers
+set hidden
+
+" Rendering
+set ttyfast
+
+" Status bar
+set laststatus=2
+
+" Last line
+set showmode
+set showcmd
+
+" Searching
+nnoremap / /\v
+vnoremap / /\v
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set showmatch
+map <leader><space> :let @/=''<cr> " clear search
+
+" Remap help key.
+inoremap <F1> <ESC>:set invfullscreen<CR>a
+nnoremap <F1> :set invfullscreen<CR>
+vnoremap <F1> :set invfullscreen<CR>
+
+" Textmate holdouts
+
+" Formatting
+map <leader>q gqip
+
+" Visualize tabs and newlines
+set listchars=tab:▸\ ,eol:¬
+" Uncomment this to enable by default:
+" set list " To enable by default
+" Or use your leader key + l to toggle on/off
+map <leader>l :set list!<CR> " Toggle tabs and EOL
+
+" Color scheme (terminal)
+set t_Co=256
+set background=dark
+let g:solarized_termcolors=256
+let g:solarized_termtrans=1
+" put
+"https://raw.github.com/altercation/vim-colors-solarized/master/colors/solarized.vim
+" in ~/.vim/colors/ and uncomment:
+" colorscheme solarized
+
+
+" TRAILING SPACE:
+"####################"
+" Strip whitespace {
+function! StripTrailingWhitespace()
+" Preparation: save last search, and cursor position.
+let _s=@/
+let l = line(".")
+let c = col(".")
+" do the business:
+%s/\s\+$//e
+" clean up: restore previous search history, and cursor position
+let @/=_s
+call cursor(l, c)
+endfunction
+" }
+autocmd BufWritePre <buffer> if !exists('g:spf13_keep_trailing_whitespace') | call StripTrailingWhitespace() | endi
